@@ -1,43 +1,41 @@
-
+<?php include "validate_login.php" ?>
 <html>
-	<title>
-		Login
-	</title>
-	<body>
-		<form action="" method="post">
-			<table>
-			<tr>
-				<td>
-					Username:
-				</td>
-				<td>
-					<input type="text" name="uname">
-					<span>
-						<?php
-                          echo $err_msg1;
-						?>
-					</span>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					Password:
-				</td>
-				<td>
-					<input type="Password" name="pass">
-					<span>
-						<?php
-                          echo $err_msg2;
-						?>
-					</span>
-				</td>
-			</tr>
-			<tr>
-				<td colspan="2" align="right">
-                   <input type="submit" name="submit" value = "login">
-				</td>
-			</tr>
-		    </table>
-		</form>
-	</body>
+<head>
+	<title>Login</title>
+</head>
+<body>
+    <form action="" method="post" style="width: 400px";>
+    	<fieldset style="background-color: lightgray;">
+    		<table align="center">
+    			<h1 align="center">Login</h1>
+    			<tr style="line-height: 60px;">
+    				<td>
+    					Username:
+    				</td>
+    			</tr>
+    			<tr style="line-height: 60px;">
+    				<td>
+    					<input type="text" name="uname">
+    				</td>
+    			</tr>
+    			<tr style="line-height: 60px;">
+    				<td>
+    					Password:
+    				</td>
+    			</tr>
+    			<tr style="line-height: 60px;">
+    				<td>
+    					<input type="Password" name="pass">
+    					<input type="submit" name="login" value="Login" style="background-color: green; color: white";>
+    				</td>
+    			</tr>
+    			<tr>
+    				<td>
+    					<a href="reg.php">Create a new account</a>
+    				</td>
+    			</tr>
+    		</table>
+    	</fieldset>
+    </form>
+</body>
 </html>

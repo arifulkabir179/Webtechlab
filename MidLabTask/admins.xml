@@ -1,15 +1,20 @@
-<users>
-	<user>
-		<name>Arif</name>
-		<pass>1234</pass>
-	</user>
-	<user>
-		<name>Ovi</name>
-		<pass>5678</pass>
-	</user>
-	<user>
-		<name>Ullash</name>
-		<pass>9101112</pass>
-	</user>
-
-</users>
+<?xml version="1.0"?>
+<admins>
+	<admin>
+		<fullname>Admin</fullname>
+		<username>admin</username>
+		<password>iphonepromax</password>
+		<gender>Male</gender>
+        <contact>01708338229</contact>
+        <city>Dhaka</city>
+	</admin>
+    <admin>
+    <fullname>Ariful</fullname>
+    <username>arif</username>
+	<password>558690</password>
+	<gender>on</gender>
+	<mail>arifulkabir03@gmail.com</mail>
+	<contact>01642471285</contact>
+	<city>Dhaka</city>
+	</admin>
+	</admins>

@@ -44,7 +44,7 @@
    	  }
    	  else if (strlen(strpos($_POST["email"] , "@")) > 0 && strlen(strpos($_POST["email"], ".")) > 0) {
    	  	if (strpos($_POST["email"] , "@") > strrpos($_POST["email"], ".")) {
-   	  	  $errMail = "Invalid mail format [wrong placcement]";
+   	  	  $errMail = "Invalid mail format [wrong placement]";
    	  	}
    	  	else $mail = htmlspecialchars($_POST["email"]);
    	  }
@@ -58,7 +58,7 @@
    	  }
    	  else if (!is_numeric($_POST["phn"])) {
    	  	$has_err = true;
-   	  	$err_contact = "Cantact number does not contain characters";
+   	  	$err_contact = "Contact number does not contain characters";
    	  }
    }
    if (!$has_err && isset($_POST["ok"])) {
