@@ -1,5 +1,5 @@
 <?php
-   require "validate_reg.php";
+   require "validationregistration.php";
 ?>
 
 <html>
